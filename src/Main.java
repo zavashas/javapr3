@@ -7,7 +7,7 @@ public class Main {
             System.out.print("Введите строку: ");
             String input = scanner.nextLine();
 
-            String dropProbel = input.replaceAll("\\s", "").toLowerCase();
+            String dropProbel = input.replaceAll(" ", "").toLowerCase();
             boolean palindrome = true;
 
             for (int i = 0; i < dropProbel.length() / 2; i++) {
